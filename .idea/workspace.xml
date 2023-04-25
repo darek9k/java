@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/LessonVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/LessonVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/LessonVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/MojeHello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1682423128238</updated>
     </task>
+    <task id="LOCAL-00001" summary="Variables. Integer, double. Mathematical calculations.">
+      <created>1682427250496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682427250496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +94,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -95,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Variables. Integer, double. Mathematical calculations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables. Integer, double. Mathematical calculations." />
   </component>
 </project>

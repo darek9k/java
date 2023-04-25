@@ -2,48 +2,36 @@ package javaCourse;
 //variables
 public class LessonVar {
     public static void main(String[] args) {
+        // 1 byte -128 to 127
+        byte age = - 128;
+        int i = age - 1;
+        System.out.println("age: " + i);
+        age = 127;
+        System.out.println("age: " + (age+1));
+
+        // 2 bytes -32.768 to 32.767
+        // short
+
+        short shortInt = -32768;
+
+        int i1 = shortInt - 1;
+
         //integer (4 bytes of memory allocation)
         //variable declaration 'age'
-        int age;
-        //value assignment
-        age = 18;
-        //one line
-        int userAge = 18;
-        System.out.println(age);
-        //camelCase
-        //int userAge;
+        int views = 18;
 
-        userAge = 40;
-        System.out.println(age);
+        views = 2147483647;
 
-        // + - * / %
-        int addition = userAge + 5;
+        views = views +1;
 
-        //assignment, not declaration
-        userAge = userAge - 9;
+        System.out.println("Views: " + views);
 
-        int x1 = userAge * 2;
-        int x2 = userAge / 3;
-        int x3 = userAge % 3;
+        views = -2147483648;
+        views = views-1;
+        System.out.println("Views: " + views);
 
-        System.out.println("Addition: " + addition); //+ joins two variables, the addition variable will be cast to a String, not a math operation.
-        System.out.println("userAge: " + userAge);
-        System.out.println("x1: " + x1);
-        System.out.println("x2: " + x2);
-        System.out.println("x3: " + x3);
-
-
-        //method scope variable.
-    }
-    public static void hello(String[] args) {
-        int age = 30;
-        System.out.println(age);
-        //camelCase
-        //int userAge;
-
-        age = 21;
-        System.out.println(age);
-
-        //method scope variable.
+        // 8 bytes / big number
+        long bigNumber = 9223372036854775807L;
+        bigNumber = -9223372036854775808L;
     }
 }

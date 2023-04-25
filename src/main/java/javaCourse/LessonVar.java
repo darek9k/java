@@ -1,4 +1,7 @@
 package javaCourse;
+
+import javax.sound.midi.Soundbank;
+
 //variables
 public class LessonVar {
     public static void main(String[] args) {
@@ -33,5 +36,24 @@ public class LessonVar {
         // 8 bytes / big number
         long bigNumber = 9223372036854775807L;
         bigNumber = -9223372036854775808L;
+
+        //floating point types 0.31415 * 10^1  0.031415 * 10^2  311415 * 10^-4
+        float pi2 = 3.1415f; // 4 bytes
+        pi2 = (float)3.1415;
+        System.out.println(Float.MAX_VALUE); // 3.4028235 +10^38
+        System.out.println(Float.MIN_VALUE); // 1.4 * 10^-45
+
+        double pi = 3.1415; // 8 bytes
+        System.out.println(Double.MAX_VALUE);
+        System.out.println(Double.MIN_VALUE);
+
+        float diff2 = 2 - 1.1f;
+        double diff1 = 2 - 1.1;
+
+        System.out.println(diff1);
+        System.out.println(diff2);
+
+
+
     }
 }

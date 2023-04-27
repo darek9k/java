@@ -80,9 +80,13 @@ public class PeselValidator {
         int unityAsNumber = Integer.parseInt(unity);
 
         boolean validPesel = (unityAsNumber == 0 && digit == 0)
-                || (unityAsNumber>0 && 10 - unityAsNumber == digit);
+                || (unityAsNumber > 0 && 10 - unityAsNumber == digit);
+        if (validPesel == true) {
+            System.out.println("Pesel jest poprawny / Is correct");
 
-        System.out.println("Czy pesel " + pesel + " jest poprawny? " + validPesel);
+        } else {
+            System.out.println("Pesel nie jest porawny /It is incoreect");
+        }
 
     }
 }

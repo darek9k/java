@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselGender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/ifElseExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselGender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="35a9379a-517d-4ef7-bd15-9c153fd61f56" />
+        <option name="url" value="https://github.com/darek9k/java" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -130,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682567448684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pesel Validator.">
+      <created>1682570714633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682570714633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +182,7 @@
     <MESSAGE value="Other variables, long, short, byte." />
     <MESSAGE value="Static methods on String. Methods on string instances." />
     <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Boolean. or and and operators.&#10;RandomGenerator." />
+    <MESSAGE value="Pesel Validator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Pesel Validator." />
   </component>
 </project>

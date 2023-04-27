@@ -8,72 +8,22 @@ public class PeselValidator {
         //1379137913
 
         int sum = 0;
-        //Extract single digits.
-        char c = pesel.charAt(0);
-        String charAsStr = String.valueOf(c);
-        int digit = Integer.parseInt(charAsStr);
-        int multiply = digit * 1;
-        sum = sum + multiply;
 
-        c = pesel.charAt(1);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 3;
-        sum = sum + multiply;
-
-        c = pesel.charAt(2);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 7;
-        sum = sum + multiply;
-
-        c = pesel.charAt(3);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 9;
-        sum = sum + multiply;
-
-        c = pesel.charAt(4);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 1;
-        sum = sum + multiply;
-
-        c = pesel.charAt(5);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 3;
-        sum = sum + multiply;
-
-        c = pesel.charAt(6);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 7;
-        sum = sum + multiply;
-
-        c = pesel.charAt(7);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 9;
-        sum = sum + multiply;
-
-        c = pesel.charAt(8);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 1;
-        sum = sum + multiply;
-
-        c = pesel.charAt(9);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
-        multiply = digit * 3;
-        sum = sum + multiply;
+        sum += multiplyByWeight(pesel,0, 1);
+        sum += multiplyByWeight(pesel.charAt(1), 3);
+        sum += multiplyByWeight(pesel.charAt(2), 7);
+        sum += multiplyByWeight(pesel.charAt(3), 9);
+        sum += multiplyByWeight(pesel.charAt(4), 1);
+        sum += multiplyByWeight(pesel.charAt(5), 3);
+        sum += multiplyByWeight(pesel.charAt(6), 7);
+        sum += multiplyByWeight(pesel.charAt(7), 9);
+        sum += multiplyByWeight(pesel.charAt(8), 1);
+        sum += multiplyByWeight(pesel.charAt(9), 3);
 
         System.out.println(sum);
         //Checksum. last digit.
-        c = pesel.charAt(10);
-        charAsStr = String.valueOf(c);
-        digit = Integer.parseInt(charAsStr);
+
+        int digit = Integer.parseInt(String.valueOf(pesel.charAt(10)));
 
         String sumAsStr = String.valueOf(sum);
         String unity = sumAsStr.substring(sumAsStr.length() - 1);
@@ -88,5 +38,18 @@ public class PeselValidator {
             System.out.println("Pesel nie jest porawny /It is incoreect");
         }
 
+    }
+
+    private static int multiplyByWeight(char c, int weight) {
+        String charAsStr = String.valueOf(c);
+        int digit = Integer.parseInt(charAsStr);
+        int multiply = digit * weight;
+        return multiply;
+    }
+
+    //overload
+    private static int multiplyByWeight(String pesel, int index, int weight){
+        char c = pesel.charAt(index);
+        return multiplyByWeight(c, weight);
     }
 }

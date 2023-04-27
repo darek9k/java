@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/BooleanVar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselGender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/BMICalc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/LessonVar.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BooleanVar">
+  <component name="RunManager">
     <configuration name="BMICalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.BMICalc" />
       <module name="Hello" />
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682498438558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Boolean. or and and operators.&#10;RandomGenerator.">
+      <created>1682567448684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682567448684</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +160,7 @@
     <MESSAGE value="Variables. Integer, double. Mathematical calculations." />
     <MESSAGE value="Other variables, long, short, byte." />
     <MESSAGE value="Static methods on String. Methods on string instances." />
-    <option name="LAST_COMMIT_MESSAGE" value="Static methods on String. Methods on string instances." />
+    <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Boolean. or and and operators.&#10;RandomGenerator." />
   </component>
 </project>

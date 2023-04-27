@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/ArrayExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682582473205</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Locking codes into methods. Method overloading.">
+      <created>1682585643652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682585643652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +196,7 @@
     <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
     <MESSAGE value="Pesel Validator." />
     <MESSAGE value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
+    <MESSAGE value="Locking codes into methods. Method overloading." />
+    <option name="LAST_COMMIT_MESSAGE" value="Locking codes into methods. Method overloading." />
   </component>
 </project>

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/LoopsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/TestRandomGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682597052647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Loops.&#10;for&#10;while&#10;doWhile">
+      <created>1682910432759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682910432759</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +214,7 @@
     <MESSAGE value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
     <MESSAGE value="Locking codes into methods. Method overloading." />
     <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tables. Declaring and extracting the appropriate fields." />
+    <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loops.&#10;for&#10;while&#10;doWhile" />
   </component>
 </project>

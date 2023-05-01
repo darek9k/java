@@ -1,26 +1,43 @@
 package javaCourse;
 
+import javax.sound.midi.Soundbank;
+
 public class PeselValidator {
 
-    public static void main(String[] args) {
+    public static void validate(String pesel) {
         //social security number
-        String pesel = "69062644122";
-        //1379137913
 
+        //1. Check the length is 11 characters.
+        //2. Check if each character is a number.
+        //3. Check if the checksum is correct.
+        String validationResult = isPeselValid(pesel) ? "TAK" : "NIE";
+        System.out.println("If pesel " + pesel + " valid? " + validationResult);
+    }
+
+    private static boolean isPeselValid(String pesel){
+        return isPeselLengthValid(pesel) && onlyNumbers(pesel) && isCrtValid(pesel);
+    }
+    private static boolean isPeselLengthValid(String pesel){
+        return pesel != null && pesel.length()==11;
+    }
+
+    private static boolean onlyNumbers(String pesel){
+        for(int i=0; i<pesel.length(); i++){
+            char c = pesel.charAt(i);
+            //not true = false, not false = true
+            if(!Character.isDigit(c)){
+                return false;
+            }
+        }
+        return true;
+    }
+    private static boolean isCrtValid(String pesel) {
         int sum = 0;
+        int[] weights = {1,3,7,9,1,3,7,9,1,3};
 
-        sum += multiplyByWeight(pesel,0, 1);
-        sum += multiplyByWeight(pesel.charAt(1), 3);
-        sum += multiplyByWeight(pesel.charAt(2), 7);
-        sum += multiplyByWeight(pesel.charAt(3), 9);
-        sum += multiplyByWeight(pesel.charAt(4), 1);
-        sum += multiplyByWeight(pesel.charAt(5), 3);
-        sum += multiplyByWeight(pesel.charAt(6), 7);
-        sum += multiplyByWeight(pesel.charAt(7), 9);
-        sum += multiplyByWeight(pesel.charAt(8), 1);
-        sum += multiplyByWeight(pesel.charAt(9), 3);
-
-        System.out.println(sum);
+        for(int i=0; i<10;i++){
+            sum += multiplyByWeight(pesel,i, weights[i]);
+        }
         //Checksum. last digit.
 
         int digit = Integer.parseInt(String.valueOf(pesel.charAt(10)));
@@ -31,13 +48,7 @@ public class PeselValidator {
 
         boolean validPesel = (unityAsNumber == 0 && digit == 0)
                 || (unityAsNumber > 0 && 10 - unityAsNumber == digit);
-        if (validPesel == true) {
-            System.out.println("Pesel jest poprawny / Is correct");
-
-        } else {
-            System.out.println("Pesel nie jest porawny /It is incoreect");
-        }
-
+        return validPesel;
     }
 
     private static int multiplyByWeight(char c, int weight) {

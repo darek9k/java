@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/TestRandomGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/InnerLoopsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PostModerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682910432759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Upgrading the pesel validator using loops.">
+      <created>1682913628646</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682913628646</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +221,7 @@
     <MESSAGE value="Locking codes into methods. Method overloading." />
     <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
     <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loops.&#10;for&#10;while&#10;doWhile" />
+    <MESSAGE value="Upgrading the pesel validator using loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrading the pesel validator using loops." />
   </component>
 </project>

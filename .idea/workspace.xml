@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/InnerLoopsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PostModerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Array2DExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682913628646</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Nesting loops.">
+      <created>1683000445954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1683000445954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
     <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
     <MESSAGE value="Upgrading the pesel validator using loops." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgrading the pesel validator using loops." />
+    <MESSAGE value="Nesting loops." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nesting loops." />
   </component>
 </project>

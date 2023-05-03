@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Array2DExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/AgeIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/EnumExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/PostStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -60,8 +63,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="BMICalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.EnumExample">
+    <configuration name="BMICalc" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.BMICalc" />
       <module name="Hello" />
       <extension name="coverage">
@@ -87,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnumExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaCourse.EnumExample" />
+      <module name="Hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,7 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BMICalc" />
+        <item itemvalue="Application.EnumExample" />
         <item itemvalue="Application.BooleanVar" />
       </list>
     </recent_temporary>
@@ -191,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683000445954</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Multidimensional Arrays. Rebuilding the problem with the multiplication table.">
+      <created>1683002883450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683002883451</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +252,7 @@
     <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
     <MESSAGE value="Upgrading the pesel validator using loops." />
     <MESSAGE value="Nesting loops." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nesting loops." />
+    <MESSAGE value="Multidimensional Arrays. Rebuilding the problem with the multiplication table." />
+    <option name="LAST_COMMIT_MESSAGE" value="Multidimensional Arrays. Rebuilding the problem with the multiplication table." />
   </component>
 </project>

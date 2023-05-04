@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/ClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/ClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/ClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BMICalc">
     <configuration name="BMICalc" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.BMICalc" />
       <module name="Hello" />
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683088315075</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Class and object. Characteristics, examples of use.">
+      <created>1683122247095</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683122247095</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +267,7 @@
     <MESSAGE value="Nesting loops." />
     <MESSAGE value="Multidimensional Arrays. Rebuilding the problem with the multiplication table." />
     <MESSAGE value="Enum, switch case." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enum, switch case." />
+    <MESSAGE value="Class and object. Characteristics, examples of use." />
+    <option name="LAST_COMMIT_MESSAGE" value="Class and object. Characteristics, examples of use." />
   </component>
 </project>

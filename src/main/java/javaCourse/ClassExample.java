@@ -3,17 +3,12 @@ package javaCourse;
 public class ClassExample {
     public static void main(String[] args) {
         //Different instances. Three different reflections. Rectangle classes.
-        Rectangle rectangle = new Rectangle();
-        Rectangle rectangle2 = new Rectangle();
-
-        rectangle.a = 10;
-        rectangle.b = 20;
-        rectangle.label = "Prostokat1";
-
+        Rectangle rectangle = new Rectangle(10,20,"Prostoka1");
+        Rectangle rectangle2 = new Rectangle(10,20);
         //int calculateField = rectangle.calculateField();
 
         System.out.println(rectangle);
-        System.out.println("Pole obiektu " + rectangle.label + " wynosi: " + rectangle.calculateField());
+        System.out.println("Pole obiektu " + rectangle.getLabel()+ " wynosi: " + rectangle.calculateField());
 
         Circle circle = getCircle(2.5,"Koło");
 
@@ -24,14 +19,11 @@ public class ClassExample {
     }
 
     private static Circle getCircle(double r, String label) {
-        Circle circle = new Circle();
-        circle.r = r;
-        circle.label = label;
-        return circle;
+        return new Circle(r, label);
     }
 
     private static void extracted(Circle c) {
         System.out.println(c);
-        System.out.println("Pole koła " + c.label + " wynosi: " + c.calculateField());
+        System.out.println("Pole koła " + c.getLabel() + " wynosi: " + c.calculateField());
     }
 }

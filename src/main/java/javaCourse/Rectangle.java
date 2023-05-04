@@ -1,10 +1,37 @@
 package javaCourse;
 
 public class Rectangle {
-    int a;
-    int b;
+    private int a;
+    private int b;
+    private String label;
 
-    String label;
+    public Rectangle(int a, int b){
+        this.a = a;
+        this.b = b;
+        this.label = "";
+    }
+
+    public Rectangle(int a, int b, String label) {
+        this(a,b);
+        this.label = label;
+    }
+
+    public Rectangle() {
+
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
 
     int calculateField(){
         return a*b;

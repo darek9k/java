@@ -2,9 +2,22 @@ package javaCourse;
 
 public class Circle {
 
-    double r;
+    private double r;
 
-    String label;
+    private String label;
+
+    public double getR() {
+        return r;
+    }
+
+    public String getLabel() {
+        return label;
+    }
+
+    public Circle(double r, String label) {
+        this.r = r;
+        this.label = label;
+    }
 
     double calculateField(){
         return Math.PI*r*r;

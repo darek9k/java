@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k;
 
 public class Main {
     public static void main(String[] args) {

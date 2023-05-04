@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k;
 
 import java.util.Arrays;
 import java.util.random.RandomGenerator;

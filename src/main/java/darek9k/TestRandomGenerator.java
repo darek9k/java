@@ -1,6 +1,5 @@
-package javaCourse;
+package darek9k;
 
-import javax.sound.midi.Soundbank;
 import java.util.random.RandomGenerator;
 
 public class TestRandomGenerator {

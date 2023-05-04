@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k.shapes;
 
 public class Rectangle {
     private int a;
@@ -33,7 +33,7 @@ public class Rectangle {
     }
 
 
-    int calculateField(){
+    public int calculateField(){
         return a*b;
     }
 

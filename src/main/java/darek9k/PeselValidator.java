@@ -1,6 +1,4 @@
-package javaCourse;
-
-import javax.sound.midi.Soundbank;
+package darek9k;
 
 public class PeselValidator {
 
@@ -46,16 +44,14 @@ public class PeselValidator {
         String unity = sumAsStr.substring(sumAsStr.length() - 1);
         int unityAsNumber = Integer.parseInt(unity);
 
-        boolean validPesel = (unityAsNumber == 0 && digit == 0)
+        return (unityAsNumber == 0 && digit == 0)
                 || (unityAsNumber > 0 && 10 - unityAsNumber == digit);
-        return validPesel;
     }
 
     private static int multiplyByWeight(char c, int weight) {
         String charAsStr = String.valueOf(c);
         int digit = Integer.parseInt(charAsStr);
-        int multiply = digit * weight;
-        return multiply;
+        return digit * weight;
     }
 
     //overload

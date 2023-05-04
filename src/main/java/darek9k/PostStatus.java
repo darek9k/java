@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k;
 
 public enum PostStatus {
     NEW,

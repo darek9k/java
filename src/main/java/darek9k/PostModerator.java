@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k;
 
 public class PostModerator {
     public static void main(String[] args) {

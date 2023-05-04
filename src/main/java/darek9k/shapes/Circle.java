@@ -1,4 +1,4 @@
-package javaCourse;
+package darek9k.shapes;
 
 public class Circle {
 
@@ -19,7 +19,7 @@ public class Circle {
         this.label = label;
     }
 
-    double calculateField(){
+    public double calculateField(){
         return Math.PI*r*r;
     }
 

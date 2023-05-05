@@ -6,7 +6,7 @@ import darek9k.shapes.Rectangle;
 public class ClassExample {
     public static void main(String[] args) {
         //Different instances. Three different reflections. Rectangle classes.
-        Rectangle rectangle = new Rectangle(10, 20, "Prostoka1");
+        Rectangle rectangle = new Rectangle(10, 20, 2,3,"Prostoka1");
         Rectangle rectangle2 = new Rectangle(10, 20);
         //int calculateField = rectangle.calculateField();
 

@@ -1,6 +1,6 @@
 package darek9k.shapes;
 
-public class Circle {
+public class Circle extends Shape {
 
     private double r;
 
@@ -14,7 +14,14 @@ public class Circle {
         return label;
     }
 
+    public Circle(double r, int x, int y, String label) {
+        super(x,y);
+        this.r = r;
+        this.label = label;
+    }
+
     public Circle(double r, String label) {
+        super (0,0);
         this.r = r;
         this.label = label;
     }

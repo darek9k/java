@@ -1,5 +1,7 @@
 package darek9k.shapes;
 
+import java.sql.SQLOutput;
+
 public class Rectangle extends Shape{
     private int a;
     private int b;
@@ -21,6 +23,11 @@ public class Rectangle extends Shape{
 
     public Rectangle() {
         super(0,0);
+    }
+
+    @Override
+    public void shapeDetails() {
+        System.out.println("Jestem prostokątem i mam wymiary a= " + a + " i b=" + b);
     }
 
     public int getA() {

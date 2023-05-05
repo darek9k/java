@@ -1,6 +1,6 @@
 package darek9k.shapes;
 
-public class Shape {
+public abstract class Shape {
     private int x;
     private int y;
 
@@ -40,4 +40,11 @@ public class Shape {
     public void myPosition(){
         System.out.println("Moja pozycja to x="+x+ ", y="+y);
     }
+
+    public void description(){
+        shapeDetails();
+        myPosition();
+
+    }
+    public abstract void shapeDetails();
 }

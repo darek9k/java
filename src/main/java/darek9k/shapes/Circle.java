@@ -37,4 +37,9 @@ public class Circle extends Shape {
                 ", label='" + label + '\'' +
                 '}';
     }
+
+    @Override
+    public void shapeDetails() {
+        System.out.println("Jestem kołem i mam promień r=" + r);
+    }
 }

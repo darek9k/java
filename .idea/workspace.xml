@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="Packages,">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/IntegerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/AgeIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/AgeIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Array2DExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/Array2DExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/BooleanVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/BooleanVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/ClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/ClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/EnumExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/EnumExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/InnerLoopsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/InnerLoopsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/LoopsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/LoopsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselGender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/PeselGender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PeselValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/PeselValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PostModerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/PostModerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/PostStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/PostStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/TestRandomGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/TestRandomGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaCourse/ifElseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/ifElseExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="darek9k.java.shapes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BMICalc">
+  <component name="RunManager">
     <configuration name="BMICalc" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javaCourse.BMICalc" />
       <module name="Hello" />
@@ -255,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683172300947</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Packages,">
+      <created>1683179641602</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683179641602</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

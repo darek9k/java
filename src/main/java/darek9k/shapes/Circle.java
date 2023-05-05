@@ -1,6 +1,6 @@
 package darek9k.shapes;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements FieldComputable, PerimeterComputable{
 
     private double r;
 
@@ -41,5 +41,10 @@ public class Circle extends Shape {
     @Override
     public void shapeDetails() {
         System.out.println("Jestem kołem i mam promień r=" + r);
+    }
+
+    @Override
+    public float calculate() {
+        return (float)(2*Math.PI*r);
     }
 }

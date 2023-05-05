@@ -1,9 +1,6 @@
 package darek9k;
 
-import darek9k.shapes.Circle;
-import darek9k.shapes.Rectangle;
-import darek9k.shapes.Shape;
-import darek9k.shapes.Square;
+import darek9k.shapes.*;
 
 public class InheritanceExample {
     public static void main(String[] args) {
@@ -11,7 +8,8 @@ public class InheritanceExample {
         Shape[] shapes = {
                 new Circle (1,2,3,"Circle"),
                 new Rectangle(5,5,6,8,"Prostokąt"),
-                new Square(5,150,200)
+                new Square(5,150,200),
+                new Point(1,2)
         };
         for (Shape shape : shapes) {
             shapeDesc(shape);

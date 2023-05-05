@@ -2,7 +2,7 @@ package darek9k.shapes;
 
 import java.sql.SQLOutput;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape implements FieldComputable, PerimeterComputable{
     private int a;
     private int b;
     private String label;
@@ -43,7 +43,7 @@ public class Rectangle extends Shape{
     }
 
 
-    public int calculateField(){
+    public double calculateField(){
         return a*b;
     }
 
@@ -54,5 +54,10 @@ public class Rectangle extends Shape{
                 ", b=" + b +
                 ", label='" + label + '\'' +
                 '}';
+    }
+
+    @Override
+    public float calculate() {
+        return (2*a)+(2*b);
     }
 }

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/ContainsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/PostModeratorWithSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/selectorTestsInSelenium&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -306,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683344349207</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set.">
+      <created>1683388174024</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683388174024</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,6 +363,7 @@
     <MESSAGE value="Interfaces." />
     <MESSAGE value="Collections. Lists." />
     <MESSAGE value="Collections. Sets." />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections. Sets." />
+    <MESSAGE value="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set." />
+    <option name="LAST_COMMIT_MESSAGE" value="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set." />
   </component>
 </project>

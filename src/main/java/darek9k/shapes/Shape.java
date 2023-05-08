@@ -1,5 +1,7 @@
 package darek9k.shapes;
 
+import java.util.Objects;
+
 public abstract class Shape {
     private int x;
     private int y;
@@ -47,4 +49,17 @@ public abstract class Shape {
 
     }
     public abstract void shapeDetails();
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Shape shape = (Shape) o;
+        return getX() == shape.getX() && getY() == shape.getY();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getX(), getY());
+    }
 }

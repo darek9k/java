@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/EqualsHashcodeExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683388174024</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Maps.">
+      <created>1683518338317</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683518338317</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,6 +373,7 @@
     <MESSAGE value="Collections. Lists." />
     <MESSAGE value="Collections. Sets." />
     <MESSAGE value="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set." />
-    <option name="LAST_COMMIT_MESSAGE" value="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set." />
+    <MESSAGE value="Maps." />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps." />
   </component>
 </project>

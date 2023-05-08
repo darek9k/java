@@ -1,10 +1,12 @@
 package darek9k.shapes;
 
+import java.util.Objects;
+
 public class Circle extends Shape implements FieldComputable, PerimeterComputable{
 
-    private double r;
+    private final double r;
 
-    private String label;
+    private final String label;
 
     public double getR() {
         return r;
@@ -34,7 +36,9 @@ public class Circle extends Shape implements FieldComputable, PerimeterComputabl
     public String toString() {
         return "Circle{" +
                 "r=" + r +
-                ", label='" + label + '\'' +
+                ",x=" + getX() +
+                ",y=" + getY() +
+                 ", label='" + label + '\'' +
                 '}';
     }
 
@@ -46,5 +50,19 @@ public class Circle extends Shape implements FieldComputable, PerimeterComputabl
     @Override
     public float calculate() {
         return (float)(2*Math.PI*r);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Circle circle = (Circle) o;
+        return Double.compare(circle.getR(), getR()) == 0 && getLabel().equals(circle.getLabel());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getR(), getLabel());
     }
 }

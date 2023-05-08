@@ -65,4 +65,11 @@ public class Circle extends Shape implements FieldComputable, PerimeterComputabl
     public int hashCode() {
         return Objects.hash(super.hashCode(), getR(), getLabel());
     }
+
+    public Circle max(Circle c){
+        return getR() > c.getR() ? this : c;
+    }
+    public static Circle max(Circle c1, Circle c2){
+        return c1.getR() > c2.getR() ? c1 : c2;
+    }
 }

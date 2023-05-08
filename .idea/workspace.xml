@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/StaticExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/ReportExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683532171856</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="static keyword">
+      <created>1683535559373</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683535559373</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,7 +364,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variables. Integer, double. Mathematical calculations." />
     <MESSAGE value="Other variables, long, short, byte." />
     <MESSAGE value="Static methods on String. Methods on string instances." />
     <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
@@ -382,6 +388,7 @@
     <MESSAGE value="The contains method on Sets and Lists versus arrays. Improvement of the PostModerator method using Set." />
     <MESSAGE value="Maps." />
     <MESSAGE value="equals() and hashCode()" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals() and hashCode()" />
+    <MESSAGE value="static keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="static keyword" />
   </component>
 </project>

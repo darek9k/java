@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/AnonymousClassExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/ReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/ReportExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683563901625</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)">
+      <created>1683632726641</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683632726641</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static methods on String. Methods on string instances." />
     <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
     <MESSAGE value="Pesel Validator." />
     <MESSAGE value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
@@ -410,6 +406,7 @@
     <MESSAGE value="equals() and hashCode()" />
     <MESSAGE value="static keyword" />
     <MESSAGE value="Singleton." />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton." />
+    <MESSAGE value="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)" />
   </component>
 </project>

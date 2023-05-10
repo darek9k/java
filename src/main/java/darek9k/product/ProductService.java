@@ -1,14 +1,14 @@
 package darek9k.product;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class ProductService {
     private static final ProductService instance = new ProductService();
 
-    private ProductDao productDao = ProductDao.getInstance();
+    private final ProductDao productDao = ProductDao.getInstance();
 
     private ProductService() {
 
@@ -20,13 +20,9 @@ public class ProductService {
 
     public Map<Integer, Product> find(Set<Integer> ids) {
         List<Product> products = productDao.findAll();
-        Map<Integer, Product> result = new HashMap<>(products.size());
 
-        for (Product product : products) {
-            if (ids.contains(product.getId())) {
-                result.put(product.getId(), product);
-            }
-        }
-        return result;
+        return products.stream()
+                .filter(product -> ids.contains(product.getId()))
+                .collect(Collectors.toMap(Product::getId, product -> product));
     }
 }

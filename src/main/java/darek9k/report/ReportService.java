@@ -7,10 +7,10 @@ import darek9k.product.ProductService;
 import darek9k.transaction.Transaction;
 import darek9k.transaction.TransactionService;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class ReportService {
     private static final ReportService instance = new ReportService();
@@ -29,13 +29,13 @@ public class ReportService {
 
     public void generateTransactionsReport() {
         List<Transaction> transactions = transactionService.findAll();
+        Set<Integer> customerIds = transactions.stream()
+                .map(Transaction::getCustomerId)
+                .collect(Collectors.toSet());
 
-        Set<Integer> customerIds = new HashSet<>(transactions.size());
-        Set<Integer> productIds = new HashSet<>(transactions.size());
-        for (Transaction transaction : transactions) {
-            customerIds.add(transaction.getCustomerId());
-            productIds.add(transaction.getProductId());
-        }
+        Set<Integer> productIds = transactions.stream()
+                .map(Transaction::getProductId)
+                .collect(Collectors.toSet());
 
         Map<Integer, Customer> customerMap = customerService.find(customerIds);
         Map<Integer, Product> productMap = productService.find(productIds);

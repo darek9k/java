@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/AnonymousClassExample.java" afterDir="false" />
+    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="Streams.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683632726641</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Anonymous Class Example.&#10;Definition of an unnamed class that implements FieldComputeble(Interface) and instantiate this class. Definition and creation of a new instance.">
+      <created>1683650967580</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1683650967580</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,8 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Boolean. or and and operators.&#10;RandomGenerator." />
-    <MESSAGE value="Pesel Validator." />
     <MESSAGE value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
     <MESSAGE value="Locking codes into methods. Method overloading." />
     <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
@@ -407,6 +416,8 @@
     <MESSAGE value="static keyword" />
     <MESSAGE value="Singleton." />
     <MESSAGE value="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)" />
+    <MESSAGE value="Anonymous Class Example.&#10;Definition of an unnamed class that implements FieldComputeble(Interface) and instantiate this class. Definition and creation of a new instance." />
+    <MESSAGE value="Streams." />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams." />
   </component>
 </project>

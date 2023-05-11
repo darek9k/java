@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/CompareExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/CheckedDivideByZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/CheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/ExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/NotCheckedDivideByZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/NotCheckedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +77,10 @@
       <recent name="darek9k.java.shapes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="darek9k" />
       <recent name="darek9k.customer" />
       <recent name="darek9k.product" />
       <recent name="darek9k.transaction" />
-      <recent name="darek9k" />
     </key>
   </component>
   <component name="RunManager">
@@ -371,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683726617506</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="compareTo()">
+      <created>1683792468100</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1683792468100</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +407,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Conditional if else statement.&#10;Modification of Pesel Gender and PeselValidator." />
     <MESSAGE value="Locking codes into methods. Method overloading." />
     <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
     <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
@@ -423,6 +431,7 @@
     <MESSAGE value="Report example.Homemade method of creating a transaction report. With separation of product, transaction, customer. DAO layer simulation (like a database)" />
     <MESSAGE value="Anonymous Class Example.&#10;Definition of an unnamed class that implements FieldComputeble(Interface) and instantiate this class. Definition and creation of a new instance." />
     <MESSAGE value="Streams." />
-    <option name="LAST_COMMIT_MESSAGE" value="Streams." />
+    <MESSAGE value="compareTo()" />
+    <option name="LAST_COMMIT_MESSAGE" value="compareTo()" />
   </component>
 </project>

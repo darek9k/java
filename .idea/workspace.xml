@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="Streams.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/StreamExample.java" afterDir="false" />
+    <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/CompareExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/shapes/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683650967580</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Streams.">
+      <created>1683726617506</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1683726617506</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -2,7 +2,7 @@ package darek9k.shapes;
 
 import java.util.Objects;
 
-public class Circle extends Shape implements FieldComputable, PerimeterComputable{
+public class Circle extends Shape implements FieldComputable, PerimeterComputable, Comparable<Circle>{
 
     private final double r;
 
@@ -22,6 +22,11 @@ public class Circle extends Shape implements FieldComputable, PerimeterComputabl
         this.label = label;
     }
 
+    public Circle(double r, int x, int y) {
+        super(x,y);
+        this.r = r;
+        this.label = "";
+    }
     public Circle(double r, String label) {
         super (0,0);
         this.r = r;
@@ -71,5 +76,24 @@ public class Circle extends Shape implements FieldComputable, PerimeterComputabl
     }
     public static Circle max(Circle c1, Circle c2){
         return c1.getR() > c2.getR() ? c1 : c2;
+    }
+
+    @Override
+    public int compareTo(Circle o) {
+        if(getR()>o.getR()){
+            return 1;
+        } else if(getR()<o.getR()){
+            return -1;
+        }
+        return 0;
+    }
+
+    public int compareByY(Circle o) {
+        if(getY()>o.getY()){
+            return 1;
+        } else if(getY()<o.getY()){
+            return -1;
+        }
+        return 0;
     }
 }

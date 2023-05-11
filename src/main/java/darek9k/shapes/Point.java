@@ -1,6 +1,6 @@
 package darek9k.shapes;
 
-public class Point extends Shape{
+public class Point extends Shape implements Comparable<Point>{
 
     private static Integer counter;
 
@@ -11,7 +11,12 @@ public class Point extends Shape{
         super(x, y);
         counter++;
     }
-
+    public String toString() {
+        return "Point{" +
+                "x=" + getX() +
+                ",y=" + getY() +
+                '}';
+    }
     @Override
     public void shapeDetails() {
         System.out.println("Jestem punktem");
@@ -19,5 +24,10 @@ public class Point extends Shape{
 
     public static Integer getCounter() {
         return counter;
+    }
+
+    @Override
+    public int compareTo(Point o) {
+        return Integer.compare(getX(), o.getX());
     }
 }

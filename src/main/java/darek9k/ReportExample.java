@@ -1,16 +1,14 @@
 package darek9k;
 
 
-import darek9k.customer.CustomerService;
-import darek9k.product.ProductService;
 import darek9k.report.ReportService;
-import darek9k.transaction.TransactionService;
+import darek9k.report.ReportType;
 
 public class ReportExample {
     public static void main(String[] args) {
         ReportService reportService = ReportService.getInstance();
-        reportService.generateTransactionsReport();
-
+        reportService.generateTransactionsReport(ReportType.CSV);
+        reportService.generateTransactionsReport(ReportType.XLS);
 //        CustomerService customerService = CustomerService.getInstance();
 //        CustomerService customerService2 = CustomerService.getInstance();
 //

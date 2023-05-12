@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/CsvTransactionReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/TransactionReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/TransactionReportGeneratorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/TransactionsReportLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/XlsTransactionReportGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/transactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/transactions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/ReportExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/ReportExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/ReportService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +23,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -67,10 +67,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/selectorTestsInSelenium",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -83,6 +90,7 @@
       <recent name="darek9k.java.shapes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="darek9k.report" />
       <recent name="darek9k" />
       <recent name="darek9k.customer" />
       <recent name="darek9k.product" />
@@ -400,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683874216925</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Files.&#10;Rework of the transaction report using files.">
+      <created>1683878369052</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683878369052</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
     <MESSAGE value="Upgrading the pesel validator using loops." />
     <MESSAGE value="Nesting loops." />
     <MESSAGE value="Multidimensional Arrays. Rebuilding the problem with the multiplication table." />
@@ -452,7 +466,8 @@
     <MESSAGE value="compareTo()" />
     <MESSAGE value="Exceptions." />
     <MESSAGE value="Files.&#10;Reading and Writing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Files.&#10;Reading and Writing." />
+    <MESSAGE value="Files.&#10;Rework of the transaction report using files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Files.&#10;Rework of the transaction report using files." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

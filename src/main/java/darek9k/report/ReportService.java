@@ -4,9 +4,12 @@ import darek9k.customer.Customer;
 import darek9k.customer.CustomerService;
 import darek9k.product.Product;
 import darek9k.product.ProductService;
+import darek9k.shapes.Circle;
+import darek9k.shapes.Shape;
 import darek9k.transaction.Transaction;
 import darek9k.transaction.TransactionService;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -27,7 +30,7 @@ public class ReportService {
         return instance;
     }
 
-    public void generateTransactionsReport() {
+    public void generateTransactionsReport(ReportType reportType) {
         List<Transaction> transactions = transactionService.findAll();
         Set<Integer> customerIds = transactions.stream()
                 .map(Transaction::getCustomerId)
@@ -40,16 +43,26 @@ public class ReportService {
         Map<Integer, Customer> customerMap = customerService.find(customerIds);
         Map<Integer, Product> productMap = productService.find(productIds);
 
-        for (Transaction transaction : transactions) {
-            Customer customer = customerMap.get(transaction.getCustomerId());
-            Product product = productMap.get(transaction.getProductId());
-            System.out.println(transaction.getId() + ","
-                    + customer.firstAndLastName() + ","
-                    + product.getName() + ","
-                    + transaction.getDate() + ","
-                    + transaction.getQuantity() + ","
-                    + transaction.getPrice()
-            );
-        }
+        List<TransactionsReportLine> transactionsReportLines = transactions.stream()
+                .map(transaction -> {
+                    Customer customer = customerMap.get(transaction.getCustomerId());
+                    Product product = productMap.get(transaction.getProductId());
+
+                    return new TransactionsReportLine(
+                            transaction.getId(),
+                            customer.firstAndLastName(),
+                            product.getName(),
+                            transaction.getDate(),
+                            transaction.getQuantity(),
+                            transaction.getPrice()
+                    );
+                })
+                .toList();
+
+
+        TransactionReportGenerator transactionReportGenerator = TransactionReportGeneratorProvider.provide(reportType);
+        transactionReportGenerator.generate(transactionsReportLines);
+
+
     }
 }

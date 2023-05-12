@@ -20,14 +20,13 @@ public class CustomerService {
     }
 
     public Map<Integer, Customer> find(Set<Integer> ids) {
-        List<Customer> customers = customerDao.findAll();
+        List<Customer> customers = customerDao.findAll(ids);
 
         //Map<Integer, List<Customer>> map = customers.stream()
         //          .filter(customer -> ids.contains(customer.getId()))
         //        .collect(Collectors.groupingBy(Customer::getId));
 
         return customers.stream()
-                .filter(customer -> ids.contains(customer.getId()))
                 .collect(Collectors.toMap(Customer::getId, Function.identity()));
     }
 }

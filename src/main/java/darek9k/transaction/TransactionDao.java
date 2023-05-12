@@ -1,8 +1,14 @@
 package darek9k.transaction;
 
+import darek9k.customer.Customer;
+
+import java.io.IOException;
 import java.math.BigDecimal;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Stream;
 
 class TransactionDao {
     private static final TransactionDao instance = new TransactionDao();
@@ -16,11 +22,14 @@ class TransactionDao {
     }
 
     List<Transaction> findAll() {
-        return List.of(
-                new Transaction(1, 1, 1, LocalDate.of(2023, 1, 1), 2, new BigDecimal(94)),
-                new Transaction(2, 1, 1, LocalDate.of(2023, 1, 3), 1, new BigDecimal(97)),
-                new Transaction(3, 3, 4, LocalDate.of(2023, 1, 2), 4, new BigDecimal(1397)),
-                new Transaction(4, 3, 9, LocalDate.of(2023, 1, 4), 6, new BigDecimal(2794))
-        );
+        try (Stream<String> lines = Files.lines(Path.of("files/transactions.csv"))){
+            return lines
+                    .map(Transaction::fromCsvString)
+                    .toList();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+
     }
 }

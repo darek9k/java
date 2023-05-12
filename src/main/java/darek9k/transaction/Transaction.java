@@ -1,5 +1,7 @@
 package darek9k.transaction;
 
+import darek9k.customer.Customer;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -22,6 +24,17 @@ public class Transaction {
         this.quantity = quantity;
         this.price = price;
     }
+    public static Transaction fromCsvString(String str){
+        String[] columns = str.split(",");
+        return new Transaction(Integer.valueOf(columns[0]),
+                Integer.valueOf(columns[1]),
+                Integer.valueOf(columns[2]),
+                LocalDate.parse(columns[3]),
+                Integer.valueOf(columns[4]),
+                new BigDecimal(columns[5])
+                );
+    }
+
 
     public Integer getId() {
         return id;

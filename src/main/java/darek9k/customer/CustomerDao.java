@@ -1,6 +1,11 @@
 package darek9k.customer;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Stream;
 
 class CustomerDao {
 
@@ -13,15 +18,16 @@ class CustomerDao {
         return instance;
     }
 
-    List<Customer> findAll() {
-        return List.of(
-                new Customer(1, "Marek", "Koszałka"),
-                new Customer(2, "Jan", "Kowalski"),
-                new Customer(3, "Adam", "Nowak"),
-                new Customer(4, "Mirka", "Chylak"),
-                new Customer(5, "Kinga", "Pastuszka"),
-                new Customer(8, "Marek", "Zegarek"),
-                new Customer(9, "Marek", "Koszałka")
-        );
+    List<Customer> findAll(Set<Integer> ids) {
+        try (Stream<String> lines = Files.lines(Path.of("files/customers.csv"))){
+
+            return lines
+                    .map(Customer::fromCsvString)
+                    .filter(customer -> ids.contains(customer.getId()))
+                    .toList();
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

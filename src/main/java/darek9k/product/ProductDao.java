@@ -1,6 +1,11 @@
 package darek9k.product;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Stream;
 
 class ProductDao {
     private static final ProductDao instance = new ProductDao();
@@ -12,12 +17,14 @@ class ProductDao {
         return instance;
     }
 
-    List<Product> findAll() {
-        return List.of(
-                new Product(1,"Kurs Zostań Testerem"),
-                new Product(2, "Kurs Podstawy Javy"),
-                new Product(3, "Kurs Backend Java Developer")
-
-        );
+    List<Product> findAll(Set<Integer> ids) {
+        try (Stream<String> lines = Files.lines(Path.of("files/products.csv"))){
+            return lines
+                    .map(Product::fromCsvString)
+                    .filter(product -> ids.contains(product.getId()))
+                    .toList();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

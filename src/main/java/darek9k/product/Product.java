@@ -14,6 +14,11 @@ public class Product {
         this.name = name;
     }
 
+    public static Product fromCsvString(String str){
+        String[] columns = str.split(",");
+        return new Product(Integer.valueOf(columns[0]), columns[1]);
+    }
+
     public Integer getId() {
         return id;
     }
@@ -29,4 +34,6 @@ public class Product {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

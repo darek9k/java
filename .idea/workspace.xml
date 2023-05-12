@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/files/customers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/products.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/transactions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/darek9k/FileExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/transactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/files/transactions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/transaction/TransactionDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683811198941</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Files.&#10;Reading and Writing.">
+      <created>1683874216925</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683874216925</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tables. Declaring and extracting the appropriate fields." />
     <MESSAGE value="Loops.&#10;for&#10;while&#10;doWhile" />
     <MESSAGE value="Upgrading the pesel validator using loops." />
     <MESSAGE value="Nesting loops." />
@@ -440,7 +451,8 @@
     <MESSAGE value="Streams." />
     <MESSAGE value="compareTo()" />
     <MESSAGE value="Exceptions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions." />
+    <MESSAGE value="Files.&#10;Reading and Writing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Files.&#10;Reading and Writing." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

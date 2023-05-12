@@ -1,5 +1,7 @@
 package darek9k.customer;
 
+import darek9k.product.Product;
+
 public class Customer {
 
     private Integer id;
@@ -14,6 +16,11 @@ public class Customer {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    public static Customer fromCsvString(String str){
+        String[] columns = str.split(",");
+        return new Customer(Integer.valueOf(columns[0]), columns[1], columns[2]);
+    }
+
 
     public Integer getId() {
         return id;

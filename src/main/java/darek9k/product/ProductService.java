@@ -19,10 +19,9 @@ public class ProductService {
     }
 
     public Map<Integer, Product> find(Set<Integer> ids) {
-        List<Product> products = productDao.findAll();
+        List<Product> products = productDao.findAll(ids);
 
         return products.stream()
-                .filter(product -> ids.contains(product.getId()))
                 .collect(Collectors.toMap(Product::getId, product -> product));
     }
 }

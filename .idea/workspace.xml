@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09f83e41-177e-4998-9c33-15c31757a5a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/report/CsvTransactionReportGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/CsvTransactionReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/darek9k/report/TransactionsReportLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/darek9k/report/TransactionsReportLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/selectorTestsInSelenium&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/kursJava/java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="darek9k.product" />
@@ -416,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683904388977</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="common csv from Apache">
+      <created>1683948041049</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683948041049</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Nesting loops." />
     <MESSAGE value="Multidimensional Arrays. Rebuilding the problem with the multiplication table." />
     <MESSAGE value="Enum, switch case." />
     <MESSAGE value="Class and object. Characteristics, examples of use." />
@@ -468,7 +473,8 @@
     <MESSAGE value="Files.&#10;Reading and Writing." />
     <MESSAGE value="Files.&#10;Rework of the transaction report using files." />
     <MESSAGE value="Lombok." />
-    <option name="LAST_COMMIT_MESSAGE" value="Lombok." />
+    <MESSAGE value="common csv from Apache" />
+    <option name="LAST_COMMIT_MESSAGE" value="common csv from Apache" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
